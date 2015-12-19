@@ -213,7 +213,6 @@
 ul.style2
 	{
 		margin: 0 auto;
-		width: 80%;
 		overflow: hidden;
 		list-style: none;
 		text-align: left;
