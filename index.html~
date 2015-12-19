@@ -227,13 +227,13 @@ the monument is started.
 			<li>
 					<h2>Follow me</h2>
 			
-			<a href="http://www.facebook.com/ashwin.r.95"><img src="icons/facebook.png"/></a>
+			<a href="http://www.facebook.com/ashwin.r.95" target="_blank"><img src="icons/facebook.png"/></a>
 			
-			<a href="https://www.quora.com/Ashwin-Ramesh-4"><img src="icons/quora.png"/></a>
+			<a href="https://www.quora.com/Ashwin-Ramesh-4" target="_blank"><img src="icons/quora.png"/></a>
 
-			<a href="https://plus.google.com/u/0/107294751957824394852/posts"><img src="icons/google-icon.png"/></a>
+			<a href="https://plus.google.com/u/0/107294751957824394852/posts" target="_blank"><img src="icons/google-icon.png"/></a>
 			
-			<a href="https://in.linkedin.com/in/ashwin95r"><img src="icons/linkedin.png"/></a>
+			<a href="https://in.linkedin.com/in/ashwin95r" target="_blank"><img src="icons/linkedin.png"/></a>
 			
 			</li>
 			
