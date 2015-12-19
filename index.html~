@@ -87,16 +87,14 @@ Released   : 20130902
 				<h2>Hello!</h2>
 				<span class="byline">How are you doing?</span>
 			</div>
-			<p>I'm <strong>Ashwin</strong>, a Third year undergraduate student in computer science and engineering, IIT Madras. <br>
+			<p>I'm <strong>Ashwin</strong>, Undergraduate senior in computer science and engineering at IIT Madras. <br>
 I live in Chennai.<p>
-<p>
-Currently, I am trying to explore various fields in computer science to get a taste of everything. </p> 
-<p>
-	<span><strong>Interests</strong>:Data structures and Algorithms, OpenCV, Machine learning, BigData.</span><br><br>
 
- I like to pass my free time in <a href="www.quora.com">Quora</a>, 9gag, and few tech blogs.
+	<span><strong>Interests</strong>: Scalable systems, Data engineering, Computer networks, Data structures and Algorithms, Machine learning, BigData</span><br><br>
+
+ I like to pass my free time in Quora, 9gag, and few tech blogs
 </p>
-			<span><strong>Likes</strong>: Good food, Music, some TV series, Playing cricket, General fitness.</span>
+			<span><strong>Likes</strong>: Good food, Music, some TV series, Playing cricket, General fitness</span>
 			
 			</ul>
 			</div>
@@ -107,20 +105,29 @@ Currently, I am trying to explore various fields in computer science to get a ta
 			<a name ="course"></a>
 			<div class="title">
 				<h2>Academics</h2>
-				<span class="byline">Some of the courses that I have done</span>
+				<span class="byline">Some of the courses I have done</span>
 			</div>
 
-			<ul class="style1">
-				<li class="first">
-					<p class="date"><a>THEORY</a></p>
-					<h3><b>Completed</b></h3>
-					<p><a >• Discrete Mathematics
-										• Switching Theory & Digital Design 
-										• Basic Graph Theory • Data Structures and Algorithms 
-• Computer Organization 
-• Language Machines and Computations
-• Probability and Statistics<br></a></p>
-				</li>
+					<p>
+• Distributed computing 
+• Machine learning 
+• Software defined networks 
+• Data mining 
+• Data structures and algorithms 
+• Memory based reasoning in AI 
+• Computer networks 
+• Advanced programming lab 
+• Operating systems 
+• Software engineering 
+• Discrete mathematics 
+• Graph theory 
+• Multivariate data analysis 
+• Paradigms of programming 
+• Compilers 
+• Computer System Design 
+• Languages, Machines and Computations 
+• Process optimization
+			<!--	
 				<li>
 					<p class="date"><a >LABS</a></p>
 					<h3><b>Completed</b></h3>
@@ -128,7 +135,8 @@ Currently, I am trying to explore various fields in computer science to get a ta
 • Digital Logic and Design Lab • Advanced Programming Lab 
 • Assembly Language Programming Lab</a></p>
 				</li>
-			</ul>
+				
+				-->
 			
 		</div>
 		
@@ -180,7 +188,7 @@ the monument is started.
 			<a name ="Experience"></a>
 			<div class="title">
 				<h2>Experience</h2>
-				<span class="byline">My past work</span>
+				<span class="byline">My work experiences</span>
 			</div>
 			<ul class="style2">
 				<li class="first">
