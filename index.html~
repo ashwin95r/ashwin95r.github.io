@@ -184,7 +184,15 @@ the monument is started.
 			</div>
 			<ul class="style2">
 				<li class="first">
-					<p class="date"><b>Indix</b></p>
+					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
+					<h3>Worked in the machine learning team at indix</h3>
+					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
+					</a></p>
+				</li>					
+			</ul>
+			<ul class="style2">
+				<li class="second">
+					<p class="date"><b>Indix, Chennai, India</b></p>
 					<h3>Worked in the machine learning team at indix</h3>
 					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
 					</a></p>
@@ -208,9 +216,9 @@ the monument is started.
 	<!-- contact me -->	
 		
 		<div id="featured" >
-			<a name ="contact"></a>
+			<a name ="Social"></a>
 			<div class="title">
-				<h2>Contact Me</h2>
+				<h2>Social</h2>
 				<span class="byline">Have anything to say?</span>
 			</div>
 			<ul class="style2">
