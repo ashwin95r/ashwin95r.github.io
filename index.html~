@@ -180,13 +180,13 @@ the monument is started.
 			<a name ="Experience"></a>
 			<div class="title">
 				<h2>Experience</h2>
-				<span class="byline">My past work/research experiences</span>
+				<span class="byline">My past work</span>
 			</div>
 			<ul class="style2">
 				<li class="first">
 					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
-					<h3>Worked in the machine learning team at indix</h3>
-					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
+					<h3>Worked in the Data Enginerring team</h3>
+					<p><a>My work here involved developing a real-time analytics framework to analyse log data.					
 					</a></p>
 				</li>					
 			</ul>
