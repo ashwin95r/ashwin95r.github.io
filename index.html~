@@ -60,10 +60,8 @@ Released   : 20130902
 		<div id="menu">
 			<ul>
 				<li class="current_page_item"><a href="#about" accesskey="1" title="">About Me</a></li>
-				<li><a href="#course" accesskey="2" title="">Academics</a></li>
-			<!--	<li><a href="#project" accesskey="3" title="">Projects</a></li>
-			-->	
 				<li><a href="#Experience" accesskey="4" title="">Experience</a></li>
+				<li><a href="#course" accesskey="2" title="">Academics</a></li>
 				<li><a href="https://drive.google.com/open?id=0B-dcdYzNnLnGc0V2NUJqN2pyMUk" target = "_blank">Resume</a></li>
 				<li><a href="#Social" accesskey="6" title="">Social</a></li>
 				
@@ -95,6 +93,31 @@ I live in Chennai.<p>
 </p>
 			</ul>
 			</div>
+			
+			<div id="featured">
+			<a name ="Experience"></a>
+			<div class="title">
+				<h2>Experience</h2>
+				<span class="byline">My work experiences</span>
+			</div>
+			<ul class="style2">
+				<li class="first">
+					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
+					<h3>Worked in the Data Enginerring team</h3>
+					<p><a>My work here involved developing a real-time analytics framework to analyse log data.					
+					</a></p>
+				</li>					
+			</ul>
+			<ul class="style2">
+				<li class="second">
+					<p class="date"><a href="http://www.indix.com/" target="_blank"><b>Indix, Chennai, India</b></a></p>
+					<h3>Worked in the machine learning team at indix</h3>
+					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
+					</a></p>
+				</li>					
+			</ul>
+			
+		</div>
 		
 		<!-- Courses -->	
 		
@@ -189,30 +212,7 @@ the monument is started.
 		
 		-->	
 		
-		<div id="featured">
-			<a name ="Experience"></a>
-			<div class="title">
-				<h2>Experience</h2>
-				<span class="byline">My work experiences</span>
-			</div>
-			<ul class="style2">
-				<li class="first">
-					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
-					<h3>Worked in the Data Enginerring team</h3>
-					<p><a>My work here involved developing a real-time analytics framework to analyse log data.					
-					</a></p>
-				</li>					
-			</ul>
-			<ul class="style2">
-				<li class="second">
-					<p class="date"><a href="http://www.indix.com/" target="_blank"><b>Indix, Chennai, India</b></a></p>
-					<h3>Worked in the machine learning team at indix</h3>
-					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
-					</a></p>
-				</li>					
-			</ul>
-			
-		</div>
+		
 		
 		<!-- FILL IN -->	
 <!--	
@@ -236,6 +236,12 @@ the monument is started.
 			</div>
 			<ul class="style2">
 				<li>
+					
+					<h2 >My PGP public key</h2>
+					<a href="public.asc" target="_blank">Key</a>
+					
+				</li>
+				<li>					
 					<h2 >Mail me</h2>
 					<h3>ashwin2007ray "at" gmail "dot" com</h3>
 					
