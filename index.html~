@@ -205,7 +205,7 @@ the monument is started.
 			</ul>
 			<ul class="style2">
 				<li class="second">
-					<p class="date"><a href="http://www.indix.com/"><b>Indix, Chennai, India</b></a></p>
+					<p class="date"><a href="http://www.indix.com/" target="_blank"><b>Indix, Chennai, India</b></a></p>
 					<h3>Worked in the machine learning team at indix</h3>
 					<p><a>My work here involved efficient ways to identify the noisy data points in the training set using Support Vector Machines. 	 Removal of these noisy points in the training set imporoves the accuracy of the classifier.					
 					</a></p>
