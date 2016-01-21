@@ -50,7 +50,7 @@ Released   : 20130902
 <div id="page" class="container">
 	<div id="header">
 		<div id="logo">
-			<img height = 120 width = 100 src="images/me_in_suit.jpg" alt="" />
+			<img height = 120 width = 120 src="images/choki_e.jpg" alt="" />
 			<h1><a href="#">R Ashwin</a><br>
 			<h4><a>Undergraduate Senior</a><br>
 			<a href="http://www.cse.iitm.ac.in/" target="_blank">Computer Science and Engineering</a><br>
@@ -133,6 +133,7 @@ I live in Chennai.<p>
 • Machine learning 
 • Software defined networks 
 • Data mining 
+• Cryptography and network security 
 • Data structures and algorithms 
 • Memory based reasoning in AI 
 • Computer networks 
@@ -212,21 +213,6 @@ the monument is started.
 		
 		-->	
 		
-		
-		
-		<!-- FILL IN -->	
-<!--	
-		<div id="featured">
-			<a name ="resume" ></a>
-			<div class="title">
-				<h2>Intrests</h2>
-				<span class="byline"><a href="resume_ashwin.pdf"><img src="images/517264.png" alt="" /></a></span>
-			</div>
-			<ul class="style1">
-			</ul>
-		</div>
--->		
-	<!-- contact me -->	
 		
 		<div id="featured" >
 			<a name ="Social"></a>
