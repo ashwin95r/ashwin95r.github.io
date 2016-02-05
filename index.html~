@@ -50,7 +50,7 @@ Released   : 20130902
 <div id="page" class="container">
 	<div id="header">
 		<div id="logo">
-			<img height = 120 width = 120 src="images/choki_e.jpg" alt="" />
+			<img height = 123 width = 123 src="images/choki_e.jpg" alt="" />
 			<h1><a href="#">R Ashwin</a><br>
 			<h4><a>Undergraduate Senior</a><br>
 			<a href="http://www.cse.iitm.ac.in/" target="_blank">Computer Science and Engineering</a><br>
@@ -84,12 +84,11 @@ Released   : 20130902
 				<h2>Hello!</h2>
 				<span class="byline">How are you doing?</span>
 			</div>
-			<p>I'm <strong>Ashwin</strong>, Undergraduate senior in computer science and engineering at IIT Madras. <br>
-I live in Chennai.<p>
+			<p>I'm <strong>Ashwin</strong>, Undergraduate senior in computer science and engineering at IIT Madras. I live in Chennai. Currently, as a part of my Btech project, I'm working on <a href="http://dgraph.io/" target="_blank"><b>Dgraph</b></a>, which is a scalable, distributed graph database.<p>
 
-	<span><strong>Interests</strong>: Scalable systems, Data engineering, Computer networks, Data structures and Algorithms, Machine learning, BigData</span><br><br>
+	<span><strong>Interests </strong>: Scalable systems, Data engineering, Computer networks, Data structures and Algorithms, Machine learning, BigData</span><br><br>
 
- I like to pass my free time in Quora, 9gag, and few tech blogs. I add interesting articles to my pocket list, you can check them out <a href ="http://sharedli.st/ashwinr" target="_blank">here</a>
+ I like to pass my free time in Quora, 9gag, and few tech blogs.
 </p>
 			</ul>
 			</div>
@@ -105,6 +104,14 @@ I live in Chennai.<p>
 					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
 					<h3>Worked in the Data Enginerring team</h3>
 					<p><a>My work here involved developing a real-time analytics framework to analyse log data.					
+					</a></p>
+				</li>					
+			</ul>
+			<ul class="style2">
+				<li class="second">
+					<p class="date"><b>Hyperverge, India</b></p>
+					<h3>Project Member, Data engineering</h3>
+					<p><a>Established a real-time log monitoring system using spark, kafka.					
 					</a></p>
 				</li>					
 			</ul>
