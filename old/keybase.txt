@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/ashwin95r
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ashwin95r.github.io
+  * I am ashwin95r (https://keybase.io/ashwin95r) on keybase.
+  * I have a public key with fingerprint F50B 384E 9911 F173 9CF4  E08E 57A5 953D B628 2587
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101dd30a617f4272f3a2702f3b5001d0b722640483665ac0be912437985f0259af00a",
+            "fingerprint": "f50b384e9911f1739cf4e08e57a5953db6282587",
+            "host": "keybase.io",
+            "key_id": "57a5953db6282587",
+            "kid": "0101dd30a617f4272f3a2702f3b5001d0b722640483665ac0be912437985f0259af00a",
+            "uid": "37838f8bc2fd53e9b07a9071fdcb8f19",
+            "username": "ashwin95r"
+        },
+        "service": {
+            "hostname": "ashwin95r.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1459591440,
+    "expire_in": 157680000,
+    "prev": "4e5e22943eea3ebfc7656aed6ac26e4c2c16ed73217cf3f0456f85d25e1a0a43",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSBVBGD5aaVqGEeRDZbBhFzOdndnZy6mwiBIjMgNNu3CY3Z3xrJc9
+pz2raXrAopBDBRVEdw2jEuotEY2isotERBcKySijC5hBmeZDEdWs1Uv02Lz8zD/f
+9833/fw3U8b5kuM2nDm0tGN+RlPc3est1b7iH0dT6wU9ZNYJ/nqhgo4VWmnSiBuo
+sEzBLwARiKaJAJFFhUlQgQwRqABedAz4E9AVCGUJSCqSZUwMoFNNhBJSNBUzALFG
+GABEyBKYZZdRJ+xYtstlGQY6UiWqaaLIRAVpBpMoUClWCNYwMnUZqhCrCicGQxGP
+wc3pJEKzrRDv8UtgzN4/8P/Zd/WYHFJUpDJVNyAzMaKaDhSiAUVkpqGrTNQ8YIQ6
+NqmiHE0iwW2WrWFHiGYJvF1jGdSbrBflb0h2meUGq/VfucJOyA0ZoUoOCLpuOOL3
+BNy6sMfYRvXAb62Abtkmnydn1FAnYoVswS9ypOFanrgo8ZlooiSBLIHWhi2HBiwP
+gRVZBfx4/9AaLilRTCHUJEQpQVRnhiJjmVBTJgaUqWRAQ5SpqSAoKgZDDEhYZio2
+IaYiAURCgpduqx0S/IjbJGVcMmKV2cStdqgQ7b62ebwvLtmXMCHe2zNfclLqn+2b
+mZ34XS448mrX0NDCHQPnoz1rTwaugkBMbJ01fv3ZvE05txtrKy4/cHqTnuWYc6dO
+KFx17s6b8jmj09aYp+qeFs0jPcXPp7dN2/spKfPSxjs974xlHxuGG/L3PZm+bE7J
+h+3NlxLv93UMjGSe6J6x/Ks7e/KL3Sn7DydmXJiY/v5b04Xk1JHRXb1THnTtHADW
+fNS69ViwZcvnwf6D6cd7WcG9G5Ny0hY1ve5PuNhX3t02rnHHw9L0jYvy3j1HFe1f
+YH5sT16D27lkyqxH0afD7a0HOs93fW6KZjvlAbK4svDld5jbXLry5vDqtKLHdkFR
+bEHsdF1B1ZWEdW/LzZLeFSmxxf3SreL4wdyf+7M+Pg==
+=ljBS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ashwin95r
+
+==================================================================
+

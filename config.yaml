@@ -1,0 +1,10 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+    category: "categories"
+    baseurl: "http://ashwin95r.github.io"
+    title: "Ashwin"
+    canonifyurls: true
+      ...
