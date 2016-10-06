@@ -21,6 +21,9 @@ Released   : 20130902
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,19 +55,17 @@ Released   : 20130902
 		<div id="logo">
 			<img height = 123 width = 123 src="images/choki_e.jpg" alt="" />
 			<h1><a href="#">R Ashwin</a><br>
-			<h4><a>Undergraduate Senior</a><br>
-			<a href="http://www.cse.iitm.ac.in/" target="_blank">Computer Science and Engineering</a><br>
+			<h4><a>Backend Engineer</a><br>
+			<a href="https://dgraph.io/" target="_blank">Dgraph labs</a><br>
 			<a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a></h4></h1>
 			<span><a>Programmer | Tech enthusiast</a></span>
 		</div>
 		<div id="menu">
 			<ul>
 				<li class="current_page_item"><a href="#about" accesskey="1" title="">About Me</a></li>
-				<li><a href="#Experience" accesskey="4" title="">Experience</a></li>
-				<li><a href="#course" accesskey="2" title="">Academics</a></li>
-				<li><a href="#Social" accesskey="6" title="">Social</a></li>
-				
-			
+				<li><a href="#Experience" accesskey="2" title="">Experience</a></li>
+				<li><a href="#course" accesskey="3" title="">Academics</a></li>
+				<li><a href="#Social" accesskey="4" title="">Social</a></li>		
 			</ul>
 			
 		</div>
@@ -83,9 +84,9 @@ Released   : 20130902
 				<h2>Hello!</h2>
 				<span class="byline">How are you doing?</span>
 			</div>
-			<p>I'm <strong>Ashwin</strong>, Undergraduate senior in computer science and engineering at IIT Madras. I live in Chennai. Currently, as a part of my Btech project, I'm working on <a href="http://dgraph.io/" target="_blank"><b>Dgraph</b></a>, which is a scalable, distributed graph database.<p>
-
-	<span><strong>Interests </strong>: Scalable systems, Data engineering, Computer networks, Data structures and Algorithms, Machine learning, BigData</span><br><br>
+			<p>I'm <strong>Ashwin</strong>, Backend engineer at Dgraph labs. I finished my undergraduate degree in computer science and engineering at IIT Madras. I live in Chennai.
+      <br><br>
+      <span><strong>Interests </strong>: Scalable-distributed systems, Data engineering, Computer networks, Data structures and Algorithms, Machine learning, BigData</span><br><br>
 
  I like to pass my free time in Quora, 9gag, and few tech blogs.
 </p>
@@ -99,6 +100,12 @@ Released   : 20130902
 				<span class="byline">My work experiences</span>
 			</div>
 			<ul class="style2">
+				<li class="first">
+					<p class="date"><b>Dgraph Labs</b></p>
+					<h3>Backend Engineer</h3>
+				</li>					
+			</ul>
+      <ul class="style2">
 				<li class="first">
 					<p class="date"><b>Samsung R&D HQ, Suwon, South Korea</b></p>
 					<h3>Worked in the Data Enginerring team</h3>
@@ -258,13 +265,30 @@ the monument is started.
 		
 			<a href="https://keybase.io/ashwin95r" target="_blank">Keybase</a>	
 			</li>
-			
-			</ul>
 	
-		
+			</ul>
 	</div>
 
-	
+				<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
+     			data-address="1Pt3cd4jEicHiAFEjthLmP3otrqhDomQjF"
+     			data-shared="false">
+    		<div class="blockchain stage-begin">
+        	<img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+    		</div>
+    		<div class="blockchain stage-loading" style="text-align:center">
+        	<img src="https://blockchain.info/Resources/loading-large.gif"/>
+    		</div>
+    		<div class="blockchain stage-ready">
+         <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+         <p align="center" class="qr-code"></p>
+    		</div>
+    		<div class="blockchain stage-paid">
+         Donation of <b>[[value]] BTC</b> Received. Thank You.
+    		</div>
+    		<div class="blockchain stage-error">
+        	<font color="red">[[error]]</font>
+    		</div>
+				</div>	
 		<div id="copyright" >
 			
 			<span>Copyright (c) 2014 Ashwin. All rights reserved.</span>
