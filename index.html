@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashwin Ramesh — Senior Software Engineer, AWS</title>
+  <meta name="description" content="Ashwin Ramesh is a senior software engineer at AWS in Seattle, specializing in distributed systems and backend infrastructure. IIT Madras → Sydney → Seattle." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ashwin95r.github.io/" />
+  <meta property="og:title" content="Ashwin Ramesh — Senior Software Engineer" />
+  <meta property="og:description" content="Distributed systems engineer at AWS. IIT Madras → Sydney → Seattle." />
+  <meta property="og:image" content="https://ashwin95r.github.io/images/og-cover.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ashwin_rrr" />
+  <meta name="twitter:title" content="Ashwin Ramesh — Senior Software Engineer" />
+  <meta name="twitter:description" content="Distributed systems engineer at AWS. IIT Madras → Sydney → Seattle." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://ashwin95r.github.io/" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ashwin Ramesh",
+    "jobTitle": "Senior Software Engineer",
+    "worksFor": { "@type": "Organization", "name": "Amazon Web Services" },
+    "alumniOf": { "@type": "Organization", "name": "Indian Institute of Technology Madras" },
+    "url": "https://ashwin95r.github.io",
+    "sameAs": [
+      "https://github.com/ashwin95r",
+      "https://linkedin.com/in/ashwin95r",
+      "https://twitter.com/ashwin_rrr",
+      "https://instagram.com/ashwin_rrr"
+    ]
+  }
+  </script>
+
+  <!-- Fonts: Zodiak (display serif) + Satoshi (body sans) -->
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/home.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B6GVES3EQP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B6GVES3EQP');
+  </script>
+</head>
+<body>
+
+  <!-- ── Site Header ─────────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/" class="nav__logo" aria-label="Ashwin Ramesh — home">
+        <!-- Inline SVG Logo -->
+        <svg class="nav__logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="6" stroke="currentColor" stroke-width="1.2" fill="none" opacity="0.3"/>
+          <!-- A letterform — geometric, minimal -->
+          <path d="M8 24 L16 8 L24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M10.5 19 L21.5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <!-- subtle dot — a routing node -->
+          <circle cx="16" cy="8" r="1.2" fill="currentColor"/>
+        </svg>
+        <span class="nav__logo-text">Ashwin Ramesh</span>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/work/">Work</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/writing/">Writing</a></li>
+        <li><a href="/adventures/">Adventures</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav__mobile-toggle" data-mobile-toggle aria-label="Open navigation" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Hero ────────────────────────────────────────────────── -->
+  <main>
+    <section class="hero topo-bg" aria-labelledby="hero-heading">
+      <div class="hero__inner container--wide">
+        <div class="hero__content">
+          <p class="hero__eyebrow label reveal">Senior Software Engineer · AWS · Seattle</p>
+          <h1 class="hero__heading reveal reveal--delay-1" id="hero-heading">
+            Same instincts,<br>
+            <em>different terrain.</em>
+          </h1>
+          <p class="hero__sub reveal reveal--delay-2">
+            Distributed systems and software-defined networking at AWS.
+            The Cascades on weekends. Both reward honest preparation,
+            clear judgment, and the willingness to turn back
+            before conditions force the decision.
+          </p>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a href="/work/" class="btn btn--primary">Selected work</a>
+            <a href="/about/" class="btn btn--ghost">About</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay-2">
+          <div class="hero__map-card">
+            <!-- Stylized route map — SVG -->
+            <svg viewBox="0 0 440 260" fill="none" xmlns="http://www.w3.org/2000/svg" class="route-map" aria-label="Journey map: Chennai to Sydney to Seattle" role="img">
+              <defs>
+                <marker id="arr-route" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+                  <path d="M0,0 L0,5 L5,2.5 Z" fill="var(--color-primary)" opacity="0.5"/>
+                </marker>
+              </defs>
+
+              <!-- Topo contour rings — Chennai -->
+              <ellipse cx="72" cy="88" rx="38" ry="26" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.06"/>
+              <ellipse cx="72" cy="88" rx="24" ry="16" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.05"/>
+              <!-- Topo contour rings — Sydney -->
+              <ellipse cx="228" cy="168" rx="44" ry="30" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.06"/>
+              <ellipse cx="228" cy="168" rx="28" ry="18" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.05"/>
+              <!-- Topo contour rings — Seattle -->
+              <ellipse cx="372" cy="68" rx="38" ry="26" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.07"/>
+              <ellipse cx="372" cy="68" rx="24" ry="16" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.06"/>
+
+              <!-- Route arc — Chennai to Sydney -->
+              <path d="M72 88 C140 40, 180 180, 228 168" stroke="var(--color-primary)" stroke-width="1" stroke-dasharray="4 4" opacity="0.4" stroke-linecap="round" fill="none"/>
+              <!-- Route arc — Sydney to Seattle -->
+              <path d="M228 168 C290 90, 330 55, 372 68" stroke="var(--color-primary)" stroke-width="1" stroke-dasharray="4 4" opacity="0.4" stroke-linecap="round" fill="none"/>
+
+              <!-- City dots -->
+              <circle cx="72" cy="88" r="4.5" fill="var(--color-primary)" opacity="0.7"/>
+              <circle cx="228" cy="168" r="4.5" fill="var(--color-primary)" opacity="0.7"/>
+              <circle cx="372" cy="68" r="5.5" fill="var(--color-primary)"/>
+              <!-- Pulse ring on Seattle (current) -->
+              <circle cx="372" cy="68" r="10" stroke="var(--color-primary)" stroke-width="1.2" fill="none" opacity="0.2">
+                <animate attributeName="r" values="8;18;8" dur="3.5s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.3;0;0.3" dur="3.5s" repeatCount="indefinite"/>
+              </circle>
+
+              <!-- City labels — above/beside dots -->
+              <text x="82" y="82" font-size="9" fill="currentColor" opacity="0.75" font-family="sans-serif" font-weight="700" letter-spacing="0.06em">CHENNAI</text>
+              <text x="82" y="96" font-size="7" fill="currentColor" opacity="0.38" font-family="sans-serif">2012 – 2016</text>
+
+              <text x="200" y="190" font-size="9" fill="currentColor" opacity="0.75" font-family="sans-serif" font-weight="700" letter-spacing="0.06em">SYDNEY</text>
+              <text x="200" y="203" font-size="7" fill="currentColor" opacity="0.38" font-family="sans-serif">2016 – 2022</text>
+
+              <text x="350" y="58" font-size="9" fill="currentColor" opacity="0.75" font-family="sans-serif" font-weight="700" letter-spacing="0.06em">SEATTLE</text>
+              <text x="350" y="46" font-size="7" fill="currentColor" opacity="0.38" font-family="sans-serif">2022 – now</text>
+            </svg>
+
+            <div class="hero__map-meta">
+              <div class="hero__map-stat">
+                <span class="hero__map-stat-val">9+</span>
+                <span class="hero__map-stat-label">Years in distributed systems</span>
+              </div>
+              <div class="hero__map-divider"></div>
+              <div class="hero__map-stat">
+                <span class="hero__map-stat-val">3</span>
+                <span class="hero__map-stat-label">Countries, one thread</span>
+              </div>
+              <div class="hero__map-divider"></div>
+              <div class="hero__map-stat">
+                <span class="hero__map-stat-val">AWS</span>
+                <span class="hero__map-stat-label">Current role, Seattle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Selected Work ──────────────────────────────────────── -->
+    <section class="section work-section" aria-labelledby="work-heading">
+      <div class="container--wide">
+        <div class="section-head">
+          <div class="section-head__left">
+            <p class="label reveal">Selected work</p>
+            <h2 class="section-title reveal reveal--delay-1" id="work-heading">
+              Work built to stay standing.
+            </h2>
+          </div>
+          <a href="/work/" class="btn btn--ghost reveal reveal--delay-1">All case studies →</a>
+        </div>
+
+        <div class="work-grid">
+          <!-- Card 1: Dgraph -->
+          <article class="work-card work-card--featured reveal">
+            <div class="work-card__image-wrap">
+              <div class="img-illustration img-illustration--dark" role="img" aria-label="Graph database node visualization">
+  <svg viewBox="0 0 700 394" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+    <rect width="700" height="394" fill="#111410"/>
+    <!-- Background contour lines -->
+    <ellipse cx="350" cy="197" rx="280" ry="160" stroke="#2D5016" stroke-width="0.6" opacity="0.3"/>
+    <ellipse cx="350" cy="197" rx="210" ry="120" stroke="#2D5016" stroke-width="0.6" opacity="0.25"/>
+    <ellipse cx="350" cy="197" rx="140" ry="80" stroke="#2D5016" stroke-width="0.6" opacity="0.2"/>
+    <!-- Edges -->
+    <line x1="350" y1="197" x2="180" y2="100" stroke="#2D5016" stroke-width="1.2" opacity="0.7"/>
+    <line x1="350" y1="197" x2="530" y2="120" stroke="#2D5016" stroke-width="1.2" opacity="0.7"/>
+    <line x1="350" y1="197" x2="560" y2="270" stroke="#2D5016" stroke-width="1.2" opacity="0.7"/>
+    <line x1="350" y1="197" x2="200" y2="300" stroke="#2D5016" stroke-width="1.2" opacity="0.7"/>
+    <line x1="350" y1="197" x2="120" y2="210" stroke="#2D5016" stroke-width="1" opacity="0.5"/>
+    <line x1="350" y1="197" x2="480" y2="340" stroke="#2D5016" stroke-width="1" opacity="0.5"/>
+    <line x1="180" y1="100" x2="530" y2="120" stroke="#2D5016" stroke-width="0.8" opacity="0.4"/>
+    <line x1="530" y1="120" x2="560" y2="270" stroke="#2D5016" stroke-width="0.8" opacity="0.4"/>
+    <line x1="560" y1="270" x2="480" y2="340" stroke="#2D5016" stroke-width="0.8" opacity="0.4"/>
+    <line x1="200" y1="300" x2="120" y2="210" stroke="#2D5016" stroke-width="0.8" opacity="0.4"/>
+    <!-- Leaf nodes -->
+    <circle cx="90" cy="80" r="5" fill="#2D5016" opacity="0.5"/>
+    <circle cx="155" cy="55" r="5" fill="#2D5016" opacity="0.5"/>
+    <circle cx="580" cy="80" r="5" fill="#2D5016" opacity="0.5"/>
+    <circle cx="610" cy="150" r="5" fill="#2D5016" opacity="0.5"/>
+    <circle cx="615" cy="320" r="5" fill="#2D5016" opacity="0.5"/>
+    <circle cx="80" cy="290" r="5" fill="#2D5016" opacity="0.5"/>
+    <line x1="180" y1="100" x2="90" y2="80" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <line x1="180" y1="100" x2="155" y2="55" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <line x1="530" y1="120" x2="580" y2="80" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <line x1="530" y1="120" x2="610" y2="150" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <line x1="560" y1="270" x2="615" y2="320" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <line x1="120" y1="210" x2="80" y2="290" stroke="#2D5016" stroke-width="0.7" opacity="0.35"/>
+    <!-- Main nodes -->
+    <circle cx="350" cy="197" r="14" fill="#2D5016"/>
+    <circle cx="350" cy="197" r="8" fill="#7AB85A"/>
+    <circle cx="180" cy="100" r="9" fill="#2D5016" opacity="0.9"/>
+    <circle cx="530" cy="120" r="9" fill="#2D5016" opacity="0.9"/>
+    <circle cx="560" cy="270" r="9" fill="#2D5016" opacity="0.9"/>
+    <circle cx="200" cy="300" r="9" fill="#2D5016" opacity="0.9"/>
+    <circle cx="120" cy="210" r="7" fill="#2D5016" opacity="0.7"/>
+    <circle cx="480" cy="340" r="7" fill="#2D5016" opacity="0.7"/>
+    <!-- Label -->
+    <text x="350" y="370" text-anchor="middle" font-family="monospace" font-size="11" fill="#2D5016" opacity="0.6" letter-spacing="0.15em">DISTRIBUTED GRAPH DATABASE</text>
+  </svg>
+</div>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__tag">Distributed Graph Database</p>
+              <h3 class="work-card__title">Dgraph — Real-time Graph Queries at Scale</h3>
+              <p class="work-card__desc">
+                Contributed to Dgraph at DGraph Labs in Sydney — an open-source distributed graph database written in Go, built for real-time queries on relational data at scale.
+              </p>
+              <div class="work-card__meta">
+                <span class="tag">Go</span>
+                <span class="tag">Distributed Systems</span>
+                <span class="tag">Graph Databases</span>
+                <span class="tag">RDF</span>
+                <span class="tag">Open Source</span>
+              </div>
+              <a href="/work/#dgraph" class="work-card__link">
+                Read case study
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Goldman Sachs -->
+          <article class="work-card work-card--secondary reveal reveal--delay-1">
+            <div class="work-card__image-wrap">
+              <div class="img-illustration" role="img" aria-label="Financial data pipeline visualization">
+  <svg viewBox="0 0 500 281" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+    <rect width="500" height="281" fill="#F5F3EE"/>
+    <!-- Grid lines -->
+    <line x1="0" y1="70" x2="500" y2="70" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="0" y1="140" x2="500" y2="140" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="500" y2="210" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="100" y1="20" x2="100" y2="260" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="200" y1="20" x2="200" y2="260" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="300" y1="20" x2="300" y2="260" stroke="#CCC7BC" stroke-width="0.5"/>
+    <line x1="400" y1="20" x2="400" y2="260" stroke="#CCC7BC" stroke-width="0.5"/>
+    <!-- Data pipeline bars -->
+    <rect x="30" y="180" width="40" height="60" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="30" y="155" width="40" height="25" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="90" y="120" width="40" height="120" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="90" y="90" width="40" height="30" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="150" y="100" width="40" height="140" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="150" y="75" width="40" height="25" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="210" y="130" width="40" height="110" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="210" y="100" width="40" height="30" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="270" y="80" width="40" height="160" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="270" y="55" width="40" height="25" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="330" y="110" width="40" height="130" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="330" y="82" width="40" height="28" fill="#2D5016" opacity="0.5" rx="2"/>
+    <rect x="390" y="60" width="40" height="180" fill="#2D5016" opacity="0.15" rx="2"/>
+    <rect x="390" y="38" width="40" height="22" fill="#2D5016" opacity="0.5" rx="2"/>
+    <!-- Trend line -->
+    <polyline points="50,200 110,160 170,140 230,165 290,110 350,135 410,90" stroke="#2D5016" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="250" y="270" text-anchor="middle" font-family="monospace" font-size="10" fill="#ABA89F" letter-spacing="0.1em">FINANCIAL BACKEND · GOLDMAN SACHS</text>
+  </svg>
+</div>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__tag">Financial Systems</p>
+              <h3 class="work-card__title">High-Throughput Backend at Goldman Sachs</h3>
+              <p class="work-card__desc">
+                Backend engineering in financial data pipelines, latency-sensitive services, and systems where correctness is the baseline requirement.
+              </p>
+              <div class="work-card__meta">
+                <span class="tag">Backend</span>
+                <span class="tag">Low Latency</span>
+                <span class="tag">Financial Systems</span>
+              </div>
+              <a href="/work/#goldman" class="work-card__link">
+                Read case study
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: AWS -->
+          <article class="work-card work-card--full reveal">
+            <div class="work-card__image-wrap">
+              <div class="img-illustration" role="img" aria-label="AWS SDN and distributed systems diagram">
+  <svg viewBox="0 0 600 338" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+    <rect width="600" height="338" fill="#F5F3EE"/>
+    <defs>
+      <marker id="arr-h" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L6,3 Z" fill="#2D5016" opacity="0.5"/>
+      </marker>
+      <marker id="arr-g" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L6,3 Z" fill="#ABA89F" opacity="0.7"/>
+      </marker>
+    </defs>
+    <!-- Active/Active control planes -->
+    <rect x="80" y="24" width="150" height="46" rx="4" fill="#D4DEC9" stroke="#2D5016" stroke-width="1.1"/>
+    <text x="155" y="44" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#2D5016" font-weight="700" letter-spacing="0.06em">CONTROL PLANE A</text>
+    <text x="155" y="58" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#3D6B6F" letter-spacing="0.05em">ACTIVE</text>
+    <rect x="370" y="24" width="150" height="46" rx="4" fill="#D4DEC9" stroke="#2D5016" stroke-width="1.1"/>
+    <text x="445" y="44" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#2D5016" font-weight="700" letter-spacing="0.06em">CONTROL PLANE B</text>
+    <text x="445" y="58" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#3D6B6F" letter-spacing="0.05em">ACTIVE</text>
+    <!-- Quorum sync -->
+    <line x1="230" y1="44" x2="370" y2="44" stroke="#2D5016" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr-h)" opacity="0.65"/>
+    <line x1="370" y1="52" x2="230" y2="52" stroke="#2D5016" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr-h)" opacity="0.65"/>
+    <text x="300" y="37" text-anchor="middle" font-family="monospace" font-size="7" fill="#2D5016" opacity="0.55" letter-spacing="0.04em">QUORUM SYNC</text>
+    <!-- Traffic Engineering -->
+    <rect x="50" y="118" width="168" height="46" rx="4" fill="#EDE9E2" stroke="#ABA89F" stroke-width="1"/>
+    <text x="134" y="138" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#1E1D1A" font-weight="700" letter-spacing="0.06em">TRAFFIC ENGINEERING</text>
+    <text x="134" y="153" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#6E6B63" letter-spacing="0.04em">BGP · ROUTING · ECMP</text>
+    <!-- Packet Processing -->
+    <rect x="382" y="118" width="168" height="46" rx="4" fill="#EDE9E2" stroke="#ABA89F" stroke-width="1"/>
+    <text x="466" y="138" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#1E1D1A" font-weight="700" letter-spacing="0.06em">PACKET PROCESSING</text>
+    <text x="466" y="153" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#6E6B63" letter-spacing="0.04em">eBPF · DPU · TCP/UDP</text>
+    <!-- High throughput connector -->
+    <line x1="218" y1="141" x2="280" y2="141" stroke="#ABA89F" stroke-width="0.8" stroke-dasharray="3 3" marker-end="url(#arr-g)" opacity="0.55"/>
+    <line x1="320" y1="141" x2="382" y2="141" stroke="#ABA89F" stroke-width="0.8" stroke-dasharray="3 3" marker-end="url(#arr-g)" opacity="0.55"/>
+    <text x="300" y="136" text-anchor="middle" font-family="monospace" font-size="7" fill="#ABA89F" letter-spacing="0.04em">HIGH THROUGHPUT</text>
+    <!-- Down arrows -->
+    <line x1="155" y1="70" x2="134" y2="118" stroke="#ABA89F" stroke-width="1" marker-end="url(#arr-g)" opacity="0.45"/>
+    <line x1="445" y1="70" x2="466" y2="118" stroke="#ABA89F" stroke-width="1" marker-end="url(#arr-g)" opacity="0.45"/>
+    <!-- Distributed Store -->
+    <rect x="50" y="212" width="168" height="46" rx="4" fill="#EDE9E2" stroke="#CCC7BC" stroke-width="1"/>
+    <text x="134" y="232" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#1E1D1A" font-weight="700" letter-spacing="0.06em">DISTRIBUTED STORE</text>
+    <text x="134" y="247" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#6E6B63" letter-spacing="0.04em">EVENTUAL CONSISTENCY</text>
+    <!-- Security Plane -->
+    <rect x="382" y="212" width="168" height="46" rx="4" fill="#EDE9E2" stroke="#CCC7BC" stroke-width="1"/>
+    <text x="466" y="232" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#1E1D1A" font-weight="700" letter-spacing="0.06em">SECURITY PLANE</text>
+    <text x="466" y="247" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#6E6B63" letter-spacing="0.04em">ISOLATION · AUTHZ</text>
+    <!-- Down arrows -->
+    <line x1="134" y1="164" x2="134" y2="212" stroke="#ABA89F" stroke-width="1" marker-end="url(#arr-g)" opacity="0.45"/>
+    <line x1="466" y1="164" x2="466" y2="212" stroke="#ABA89F" stroke-width="1" marker-end="url(#arr-g)" opacity="0.45"/>
+    <!-- Replication arc -->
+    <path d="M218 235 Q300 270 382 235" stroke="#ABA89F" stroke-width="0.8" stroke-dasharray="3 3" fill="none" opacity="0.45"/>
+    <text x="300" y="276" text-anchor="middle" font-family="monospace" font-size="7" fill="#ABA89F" letter-spacing="0.04em">REPLICATION · MULTI-REGION</text>
+    <!-- Protocol strip -->
+    <rect x="50" y="294" width="500" height="24" rx="3" fill="#EDE9E2" stroke="#CCC7BC" stroke-width="0.8"/>
+    <text x="300" y="310" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#6E6B63" letter-spacing="0.07em">BGP · TCP · UDP · VXLAN · MPLS · GENEVE · GRE · ECMP</text>
+  </svg>
+</div>
+            </div>
+            <div class="work-card__body">
+              <p class="work-card__tag">Cloud Infrastructure · AWS</p>
+              <h3 class="work-card__title">Distributed Backend Infrastructure at AWS</h3>
+              <p class="work-card__desc">
+                Senior software engineer on AWS backend teams across Sydney and Seattle. Distributed systems and software-defined networking — focus on fault tolerance, database design, and systems that degrade predictably under pressure.
+              </p>
+              <div class="work-card__meta">
+                <span class="tag">Distributed Systems</span>
+                <span class="tag">Database Design</span>
+                <span class="tag">AWS</span>
+                <span class="tag">High Availability</span>
+                <span class="tag">Systems Design</span>
+              </div>
+              <a href="/work/#aws" class="work-card__link">
+                Read case study
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Journey Strip ──────────────────────────────────────── -->
+    <section class="section--sm journey-section" aria-labelledby="journey-heading">
+      <div class="container--wide">
+        <p class="label reveal" style="margin-bottom: var(--space-6);">The arc</p>
+        <h2 class="sr-only" id="journey-heading">Career and life journey</h2>
+        <div class="journey-strip reveal reveal--delay-1">
+
+          <div class="journey-stop">
+            <span class="journey-stop__icon" aria-hidden="true">🌴</span>
+            <p class="journey-stop__city">Chennai, India</p>
+            <p class="journey-stop__years">2012 – 2016</p>
+            <p class="journey-stop__detail">
+              BTech Computer Science, IIT Madras.
+            </p>
+          </div>
+
+          <div class="journey-arrow" aria-hidden="true">→</div>
+
+          <div class="journey-stop">
+            <span class="journey-stop__icon" aria-hidden="true">🦘</span>
+            <p class="journey-stop__city">Sydney, Australia</p>
+            <p class="journey-stop__years">2016 – 2022</p>
+            <p class="journey-stop__detail">
+              DGraph Labs → Goldman Sachs → AWS.
+              Graph databases, financial systems, cloud infrastructure.
+            </p>
+          </div>
+
+          <div class="journey-arrow" aria-hidden="true">→</div>
+
+          <div class="journey-stop">
+            <span class="journey-stop__icon" aria-hidden="true">🌲</span>
+            <p class="journey-stop__city">Seattle, USA</p>
+            <p class="journey-stop__years">2022 – present</p>
+            <p class="journey-stop__detail">
+              Senior SDE at AWS. Distributed systems and SDN.
+              Cascades on weekends.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About Teaser ───────────────────────────────────────── -->
+    <section class="section about-teaser" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-teaser__grid">
+          <div class="about-teaser__text reveal">
+            <p class="label" style="margin-bottom: var(--space-5);">About</p>
+            <h2 class="about-teaser__heading" id="about-heading">
+              Systems and nature — the same instincts apply.
+            </h2>
+            <p class="about-teaser__body">
+              Chennai to Sydney to Seattle. IIT Madras, then a decade building distributed systems across startups, finance, and cloud at AWS.
+            </p>
+            <p class="about-teaser__body">
+              The Cascades on weekends. Distance simplifies things that proximity makes complex.
+              Both terrain and systems tell the truth eventually — better to read them closely than to admire them from afar.
+            </p>
+            <a href="/about/" class="btn btn--ghost" style="margin-top: var(--space-8);">More about me →</a>
+          </div>
+
+          <div class="about-teaser__aside reveal reveal--delay-2">
+            <div class="about-teaser__fact-card">
+              <p class="about-teaser__fact-label label">Currently reading</p>
+              <p class="about-teaser__fact-val">
+                Designing Data-Intensive Applications<br>
+                <span class="text-faint" style="font-size: var(--text-sm);">Kleppmann — always returning</span>
+              </p>
+            </div>
+            <div class="about-teaser__fact-card">
+              <p class="about-teaser__fact-label label">Outside work</p>
+              <p class="about-teaser__fact-val">
+                Skiing from Banff to Mammoth this year.
+                <span class="text-faint" style="font-size: var(--text-sm);">AIARE Level 1. Backcountry next.</span>
+              </p>
+            </div>
+            <div class="about-teaser__fact-card">
+              <p class="about-teaser__fact-label label">Thinking about</p>
+              <p class="about-teaser__fact-val">
+                How systems fail gracefully —
+                <span class="text-faint" style="font-size: var(--text-sm);">and what difficulty reveals about design.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Recent Writing ─────────────────────────────────────── -->
+    <section class="section" aria-labelledby="writing-heading">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__left">
+            <p class="label reveal">Writing</p>
+            <h2 class="section-title reveal reveal--delay-1" id="writing-heading">Notes & observations.</h2>
+          </div>
+          <a href="/writing/" class="btn btn--ghost reveal">All writing →</a>
+        </div>
+
+        <nav class="notes-list" aria-label="Recent writing">
+          <a href="/writing/#on-fault-tolerance" class="note-item reveal">
+            <span class="note-item__date">Feb 2024</span>
+            <div class="note-item__body">
+              <span class="note-item__tag">Distributed Systems</span>
+              <span class="note-item__title">Fault tolerance isn't a feature. It's a series of decisions you made before the failure.</span>
+              <span class="note-item__excerpt">On the difference between systems that tolerate failures because they were designed to, and systems that survive by coincidence.</span>
+            </div>
+          </a>
+          <a href="/writing/#on-database-design" class="note-item reveal reveal--delay-1">
+            <span class="note-item__date">Nov 2024</span>
+            <div class="note-item__body">
+              <span class="note-item__tag">Systems Design</span>
+              <span class="note-item__title">Database design decisions that haunt you three years later</span>
+              <span class="note-item__excerpt">The choices that seem harmless in year one — schema flexibility, eventual consistency, denormalization — often become the ones you're unwinding in year three.</span>
+            </div>
+          </a>
+          <a href="/writing/#on-moving" class="note-item reveal reveal--delay-2">
+            <span class="note-item__date">Jun 2024</span>
+            <div class="note-item__body">
+              <span class="note-item__tag">Perspective</span>
+              <span class="note-item__title">On moving countries twice, and what it changes about how you think</span>
+              <span class="note-item__excerpt">Relocation at scale — first to Australia, then to the United States — is less disorienting than people expect. The harder adjustment is internal.</span>
+            </div>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ── Field Notes Teaser ─────────────────────────────────── -->
+    <section class="section field-notes-teaser" aria-labelledby="field-heading">
+      <div class="container--wide">
+        <div class="field-notes-teaser__inner">
+          <div class="field-notes-teaser__text reveal">
+            <p class="label" style="margin-bottom: var(--space-5);">Field notes</p>
+            <h2 class="field-notes-teaser__heading" id="field-heading">
+              Get close enough to know, not guess.
+            </h2>
+            <p class="field-notes-teaser__body">
+              Distance simplifies. Closeness teaches.
+              The Cascades since 2022 — different terrain, same habits of mind.
+            </p>
+            <a href="/adventures/" class="btn btn--ghost" style="margin-top: var(--space-8);">Adventures →</a>
+          </div>
+          <div class="field-notes-teaser__images reveal reveal--delay-2">
+            <div class="field-img-grid">
+              <div class="img-illustration img-illustration--field" role="img" aria-label="Cascade Mountains landscape">
+  <svg viewBox="0 0 460 340" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+    <rect width="460" height="340" fill="#1E1D1A"/>
+    <rect width="460" height="340" fill="#252320"/>
+    <path d="M0 230 Q80 160 160 185 Q220 200 230 130 Q250 200 300 175 Q380 140 460 170 L460 340 L0 340Z" fill="#2D3A2F"/>
+    <path d="M0 290 Q100 268 200 278 Q300 286 460 265 L460 340 L0 340Z" fill="#1A1C1A"/>
+    <path d="M200 155 Q230 130 260 152 Q248 168 230 174 Q212 168 200 155Z" fill="#E8E5DF" opacity="0.18"/>
+    <circle cx="80" cy="45" r="1" fill="#E8E5DF" opacity="0.5"/>
+    <circle cx="220" cy="28" r="0.8" fill="#E8E5DF" opacity="0.4"/>
+    <circle cx="380" cy="55" r="1" fill="#E8E5DF" opacity="0.5"/>
+  </svg>
+</div>
+              <div class="img-illustration img-illustration--field-sm" role="img" aria-label="Pacific Northwest forest trail">
+  <svg viewBox="0 0 220 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+    <rect width="220" height="160" fill="#EDE9E2"/>
+    <path d="M0 80 Q55 70 110 80 Q165 90 220 80 L220 160 L0 160Z" fill="#2D5016" opacity="0.2"/>
+    <path d="M20 60 L30 30 L40 60Z" fill="#2D5016" opacity="0.55"/>
+    <path d="M40 70 L48 42 L56 70Z" fill="#2D5016" opacity="0.45"/>
+    <path d="M160 55 L170 28 L180 55Z" fill="#2D5016" opacity="0.5"/>
+    <path d="M180 65 L188 38 L196 65Z" fill="#2D5016" opacity="0.4"/>
+    <path d="M85 160 Q95 120 100 90 Q108 65 110 50" stroke="#ABA89F" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M100 160 Q108 120 112 90 Q118 65 120 50" stroke="#ABA89F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </svg>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact CTA ────────────────────────────────────────── -->
+    <section class="section contact-cta" aria-labelledby="contact-heading">
+      <div class="container--narrow">
+        <div class="contact-cta__inner reveal">
+          <p class="label" style="margin-bottom: var(--space-5);">Get in touch</p>
+          <h2 class="contact-cta__heading" id="contact-heading">
+            Thoughtful conversations welcome.
+          </h2>
+          <p class="contact-cta__body">
+            If you're working on something in distributed systems, infrastructure,
+            or adjacent — or if you have strong opinions about backpacking routes
+            in the North Cascades — I'm reachable.
+          </p>
+          <div class="contact-cta__links">
+            <a href="/contact/" class="btn btn--primary">Get in touch</a>
+            <a href="https://github.com/ashwin95r" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+              GitHub
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/ashwin95r" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+              LinkedIn
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Site Footer ────────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__left">
+        <p class="footer__name">Ashwin Ramesh</p>
+        <p class="footer__tagline">
+          Senior software engineer. Distributed systems at AWS.
+          IIT Madras → Sydney → Seattle.
+        </p>
+        <nav class="footer__links" aria-label="Social links">
+          <a href="https://github.com/ashwin95r" target="_blank" rel="noopener noreferrer">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/ashwin95r" target="_blank" rel="noopener noreferrer">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://twitter.com/ashwin_rrr" target="_blank" rel="noopener noreferrer">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X / Twitter
+          </a>
+          <a href="https://instagram.com/ashwin_rrr" target="_blank" rel="noopener noreferrer">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+        </nav>
+      </div>
+      <div class="footer__right">
+        <p class="footer__copy">© 2026 Ashwin Ramesh</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
